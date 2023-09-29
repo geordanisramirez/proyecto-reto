@@ -106,14 +106,35 @@ body {
 }
 
 @media screen and (max-width: 900px) {
+  .card,
+  .contenedor-conciertos,
+  .banner {
+    width: 100%;
+  }
+  .contenedor {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 700px) {
+  .card,
+  .contenedor-conciertos,
+  .banner {
+    width: 100%;
+  }
+  .contenedor {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .card {
-    width: 40%;
+  .card,
+  .contenedor-conciertos,
+  .banner {
+    width: 100%;
+  }
+  .contenedor {
+    flex-direction: column;
   }
 }
 
